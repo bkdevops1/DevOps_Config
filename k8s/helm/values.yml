@@ -48,7 +48,7 @@ service:
   
 routing:
   enabled: true 
-  host: k8s.sndevops.xyz
+  host: k8s.sndevops.xyz123
   path: /web-app
 
 
@@ -59,7 +59,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: k8s.sndevops.xyz
+    - host: k8s.sndevops.xyz123
       paths:
         - path: /demo-devops-webapp
           pathType: ImplementationSpecific
